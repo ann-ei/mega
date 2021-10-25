@@ -1,9 +1,12 @@
 .hero {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
     background-position: top center;
     margin-bottom: 160px;
+}
+.hero .container {
+    max-width: 1342px;    padding: 0px 10px;
 }
 .logo {
     width: 158px;
@@ -21,7 +24,7 @@ text-align: center;
 
 color: #FFFFFF;
 
-padding: 161px 0 20px 0;
+padding: 180px 0 20px 0;
 }
 .hero__text {
 font-weight: 400;
