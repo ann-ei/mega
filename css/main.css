@@ -478,11 +478,101 @@ body .invisible-heading {
   margin-top: 36px;
 }
 
+.present {
+  background-image: url(../img/present-bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.container.present__container {
+  max-width: 100%;
+  padding: 100px 140px 57px 140px;
+}
+
+.present__img {
+  width: 660px;
+  height: 550px;
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.present__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.present__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 130%;
+  margin-bottom: 100px;
+  text-align: right;
+  color: #090909;
+}
+
+.present__column p {
+  max-width: 370px;
+}
+
+.present__column:nth-child(1) {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.present__column:nth-child(1) p:first-child {
+  margin-right: 180px;
+}
+
+.present__column:nth-child(2) {
+  padding: 0px 75px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.present__btn {
+  background: #EB212E;
+  border-radius: 122px;
+  padding: 42px 60px 45px;
+  font-family: Noto IKEA Latin;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  position: absolute;
+  bottom: 158px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #FFFFFF;
+}
+
 .habits {
   padding-top: 160px;
   padding-bottom: 160px;
   background-image: url(../img/habits-bg.png);
   background-position-y: 58%;
+  background-color: #fff;
 }
 
 .habits__title {
@@ -567,6 +657,7 @@ body .invisible-heading {
   background-image: url(../img/footer-bg.png);
   padding-top: 43px;
   padding-bottom: 87px;
+  border: 1px solid #E4E4E4;
 }
 
 .footer-container {
