@@ -1,0 +1,36 @@
+.hero {
+    background-image: url(../../img/hero.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: top center;
+    margin-bottom: 160px;
+}
+.logo {
+    width: 158px;
+    height: 61px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.hero__title {
+font-weight: 700;
+font-size: 77px;
+line-height: 100%;
+
+text-align: center;
+
+color: #FFFFFF;
+
+padding: 161px 0 20px 0;
+}
+.hero__text {
+font-weight: 400;
+font-size: 36px;
+line-height: 1.2;
+
+text-align: center;
+
+color: #FFFFFF;
+padding-bottom: 520px;
+font-family: Roboto;
+}

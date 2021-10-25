@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Lively Headline';
+    src: url('LivelyHeadline-Bold.eot');
+    src: url('LivelyHeadline-Bold.eot?#iefix') format('embedded-opentype'),
+        url('LivelyHeadline-Bold.woff2') format('woff2'),
+        url('LivelyHeadline-Bold.woff') format('woff'),
+        url('LivelyHeadline-Bold.ttf') format('truetype'),
+        url('LivelyHeadline-Bold.svg#LivelyHeadline-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto IKEA Latin';
+    src: url('NotoIKEALatin-Bold.eot');
+    src: url('NotoIKEALatin-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NotoIKEALatin-Bold.woff2') format('woff2'),
+        url('NotoIKEALatin-Bold.woff') format('woff'),
+        url('NotoIKEALatin-Bold.ttf') format('truetype'),
+        url('NotoIKEALatin-Bold.svg#NotoIKEALatin-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto IKEA Latin';
+    src: url('NotoIKEALatin-BoldItalic.eot');
+    src: url('NotoIKEALatin-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('NotoIKEALatin-BoldItalic.woff2') format('woff2'),
+        url('NotoIKEALatin-BoldItalic.woff') format('woff'),
+        url('NotoIKEALatin-BoldItalic.ttf') format('truetype'),
+        url('NotoIKEALatin-BoldItalic.svg#NotoIKEALatin-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto IKEA Latin';
+    src: url('NotoIKEALatin-Regular.eot');
+    src: url('NotoIKEALatin-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NotoIKEALatin-Regular.woff2') format('woff2'),
+        url('NotoIKEALatin-Regular.woff') format('woff'),
+        url('NotoIKEALatin-Regular.ttf') format('truetype'),
+        url('NotoIKEALatin-Regular.svg#NotoIKEALatin-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto IKEA Latin';
+    src: url('NotoIKEALatin-Italic.eot');
+    src: url('NotoIKEALatin-Italic.eot?#iefix') format('embedded-opentype'),
+        url('NotoIKEALatin-Italic.woff2') format('woff2'),
+        url('NotoIKEALatin-Italic.woff') format('woff'),
+        url('NotoIKEALatin-Italic.ttf') format('truetype'),
+        url('NotoIKEALatin-Italic.svg#NotoIKEALatin-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

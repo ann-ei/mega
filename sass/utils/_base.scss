@@ -1,5 +1,6 @@
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: Lively Headline, sans-serif;
+  background: #E5E5E5;
   
     // Глобальные стили тегов
   
@@ -11,12 +12,7 @@ body {
       border: 0;
     }
   
-    body {
-      margin: 0px;
-      &.modal-open {
-        overflow: hidden;
-      }
-    }
+   
   
     img {
       display: block;
